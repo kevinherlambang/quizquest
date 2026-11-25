@@ -1,7 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { getCurrentUser } from "@/lib/storage";
+import { getCurrentUser } from "@/lib/accounts";
 import type { User } from "@/types";
 
 export function useUser() {
